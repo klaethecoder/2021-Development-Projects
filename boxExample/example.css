@@ -1,0 +1,23 @@
+#num-1,
+#num-2 {
+  height: 95vh;
+  width: 48%;
+  min-width: 280px;
+  float: left;
+  border: 2px black solid;
+  margin: auto 2px;
+  overflow: scroll;
+  margin: 10px 10px;
+}
+
+.odd-box,
+.even-box {
+  float: left;
+  height: 75px;
+  width: 75px;
+  padding: 20px;
+  text-align: center;
+  border: 1px red dotted;
+  margin: 5px;
+  align-content: center;
+}
