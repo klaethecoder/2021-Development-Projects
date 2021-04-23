@@ -17,7 +17,14 @@
   width: 75px;
   padding: 20px;
   text-align: center;
-  border: 1px red dotted;
+  border: 1px red solid;
   margin: 5px;
   align-content: center;
+}
+
+.odd-box:hover,
+.even-box:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.2s;
+  color: green;
 }
