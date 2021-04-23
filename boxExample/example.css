@@ -1,3 +1,7 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 #num-1,
 #num-2 {
   height: 95vh;
@@ -27,4 +31,10 @@
   transform: scale(1.1);
   transition: ease-in-out 0.2s;
   color: green;
+}
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
 }
