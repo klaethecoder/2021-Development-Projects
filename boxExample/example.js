@@ -17,17 +17,16 @@ function appendChildren(parent, arr){
     });
 }
 
-even = []
-odd = []
+let even = []
+let odd = []
 for(i=1;i<=100;i++){
     if(i%2==0){even.push(makeDiv(i))}
     else{odd.push(makeDiv(i))}
     
 }
 
-
-var box1 = document.getElementById("num-1")
-var box2 = document.getElementById("num-2")
+let box1 = document.getElementById("num-1")
+let box2 = document.getElementById("num-2")
 
 appendChildren(box2,even)
 appendChildren(box1,odd)
